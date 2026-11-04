@@ -1,0 +1,10 @@
+{
+  "city": "Santa Cruz",
+  "state": "California",
+  "weather": {
+    "temperature": 68,
+    "humidity": 65,
+    "windSpeed": 8,
+    "description": "Sunny ☀️"
+  }
+}

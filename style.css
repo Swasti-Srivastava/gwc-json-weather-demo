@@ -1,0 +1,32 @@
+/* Simple styles: feel free to change these colors! */
+body {
+  font-family: Arial, sans-serif;
+  background: #eaf4ff;
+  color: #243047;
+  margin: 0;
+  padding: 30px 16px;
+}
+
+.dashboard {
+  max-width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+form, .weather-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+label { display: block; margin-bottom: 10px; }
+input, select, button { font: inherit; padding: 10px; box-sizing: border-box; }
+input, select { width: 100%; margin-bottom: 14px; border: 1px solid #999; border-radius: 4px; }
+form { text-align: left; }
+form button { width: 100%; }
+button { background: #2765b0; color: white; border: 0; cursor: pointer; }
+button:disabled { opacity: 0.6; }
+.temperature { font-size: 44px; font-weight: bold; margin: 12px 0; }
+#status { min-height: 20px; }
+small { display: block; margin-top: 20px; }
