@@ -1,19 +1,37 @@
-# Weather Dashboard — Finished Demo
+Weather Dashboard ☀️
 
-This is the complete version of the Girls Who Code JSON + APIs code-along.
+This is the finished version of the weather dashboard we’re building for our Girls Who Code JSON workshop!
 
-## Run it
-1. Open this folder in VS Code.
-2. Open `index.html` with Live Server.
-3. Search for a city and choose its state. The country is United States.
+The website lets you search for a city and state in the US and see what the weather is like there using real weather data.
 
-The dashboard uses Open-Meteo's geocoding API to find a city and its forecast API to get **live** weather. No API key is needed. `weather.json` is a sample for learning and is **not used by the finished demo**.
+What it does
 
-## Files
-- `index.html` — what's on the page
-- `style.css` — how it looks
-- `script.js` — how it works
-- `weather.json` — example JSON for class
+* Lets you search for different cities and states
+* Shows the temperature, humidity, and wind speed
+* Gives you a quick description of the weather
+* Gets real weather data using the Open-Meteo API
 
-## For the workshop
-Start with the separate starter project. It shows sample weather. Students add the live API code in `script.js`.
+What’s in here?
+
+* index.html — Everything you see on the webpage
+* style.css — Makes the website look nice
+* script.js — Gets the weather data and puts it on the page
+* weather.json — An example of what JSON looks like
+
+How to run it
+
+1. Download the files and open the folder in VS Code.
+2. Open index.html in your browser.
+3. Search for a city, choose a state, and see what the weather is like!
+
+How does it work?
+
+When you search for a city, the website first finds its coordinates (latitude and longitude).
+
+It then sends those coordinates to the Open-Meteo weather API, which sends back weather information in JSON format.
+
+Our JavaScript reads that JSON and picks out the information we want to show on the website.
+
+That’s pretty much it!
+
+We’re using Open-Meteo for the weather data, and no API key is needed.
